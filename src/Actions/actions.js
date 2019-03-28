@@ -47,7 +47,7 @@ export const DOWNLOAD_USER_IMAGE_FAIL = "DOWNLOAD_USER_IMAGE_FAIL";
 
 
 
-const kwitterURL = "https://kwitter-api.herokuapp.com";
+const kwitterURL = "https://kwitters-api.herokuapp.com";
 
 export const login = loginData => dispatch => {
   dispatch({ type: LOGIN });
